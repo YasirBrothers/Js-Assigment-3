@@ -219,132 +219,112 @@
 
 // Chapter 12-13
 
-
-        //Q1
-
-        // var a = 1;
+   //Q1
+    
 
 
-        //Q2
+    // Q2
+        // var value1 = +prompt("Enter 1st Value (In Number)")
+        // var value2 = +prompt("Enter 2nd Value (In Number)")
 
-        // var Val1 = +prompt("Enter 1st Value (In Numbers)")
-        // var Val2 = +prompt("Enter 2nd Value (In Numbers)")
-
-        // if(Val1 > Val2)
-        // {
-        //     alert(Val1+" is Greater than "+Val2);
-        // }
-        // else if(Val1 < Val2)
-        // {
-        //     alert(Val2+" is Greater than "+Val1);
-        // }
-        // else if(Val1 === Val2)
-        // {
-        //     alert("Entered both values are equal.");
-        // }
-        // else
-        // {
-        //     alert("Invalid Value.")
-        // }
-
-        //3
-
-        // var Val1 = +prompt("Enter a value (In Numbers)")
-
-        // if(Val1 > 0)
-        // {
-        //     alert("Entered value is positive");
-        // }
-        // else if(Val1 < 0)
-        // {
-        //     alert("Entered value is negative");
-        // }
-        // else if(Val1 === 0)
-        // {
-        //     alert("Entered value is Zero.");
-        // }
-        // else
-        // {
-        //     alert("Invalid Value.")
-        // }
-
-        //4
-
-        // var Val1 = prompt("Enter a vowel")
-        // var vowels = ['a','A','e','E','i','I','o','O','u','U'];
-
-        // if(isNaN(Val1))
-        // {
-        //     if(vowels.includes(Val1))
+        // if(value1 > value2)
         //     {
-        //         alert("Entered value is a vowel")
+        //         console.log(value1 + " is Greater than " + value2);
         //     }
+
+        //     else if(value1 < value2)
+        //     {
+        //         console.log(value2 + " is Greater than " + value1);
+        //     }
+
+        //     else if(value1 === value2)
+        //     {
+        //         console.log("Entered both values are equal.");
+        //     }
+
         //     else
         //     {
-        //         alert("Entered value is not a vowel")
+        //          console.log("Invalid Value.");
         //     }
+        
+
+    //3
+        // var value1 = +prompt("Enter a value (In Numbers)");
+
+        // if(value1 > 0)
+        // {
+        //     console.log("Entered value is Positive");
         // }
+
+        // else if(value1 < 0)
+        // {
+        //     console.log("Entered value is Negative");
+        // }
+
+        // else if(value1 === 0)
+        // {
+        //     console.log("Entered value is Zero");
+        // }
+
         // else
         // {
-        //     alert("Entered Value is a Number");
-        // }
-
-        //5
-
-        // var Pass = "Password123";
-
-        // var inputPass = prompt("Please enter your password:");
-
-        // if (!inputPass) 
-        // {
-        //     alert("Please reload and enter your password");
-        // }
-        // else if (inputPass === Pass)
-        // {
-        //     alert("Correct! The password you entered matches the original password");
-        // }
-        // else
-        // {
-        //     alert("Incorrect password");
+        //     console.log("Invalid Value");
         // }
 
 
-        //6
+
+    //4
+        //  var Value1 = prompt("Enter a vowel")
+        //  var vowels = ['a','A','e','E','i','I','o','O','u','U'];
+
+        //  if(isNaN(Value1))
+        //  {
+        //      if(vowels.includes(Value1))
+        //      {
+        //          alert("Entered value is a vowel")
+        //      }
+        //      else
+        //      {
+        //          alert("Entered value is not a vowel")
+        //      }
+        //  }
+        //  else
+        //  {
+        //      alert("Entered Value is a Number");
+        //  }
+
+    
+     //5
+        //  var Pass = "Saylani Smit";
+
+        //  var inputPass = prompt("Please enter your password:");
+
+        //  if (!inputPass) 
+        //  {
+        //      alert("Please reload and enter your password");
+        //  }
+        //  else if (inputPass === Pass)
+        //  {
+        //      alert("Correct! The password you entered matches the original password");
+        //  }
+        //  else
+        //  {
+        //      alert("Incorrect password");
+        //  }
 
 
-        // var greeting;
-        // var hour = prompt();
-        // if (hour < 12)
-        // {
-        //     greeting = "Good day";
-        // }
-        // else
-        // {
-        //     greeting = "Good evening";
-        // }
-        // alert(greeting);
+     //6
+       // var greeting;
+        //  var hour = prompt();
+        //  if (hour < 12)
+        //  {
+        //      greeting = "Good day";
+        //  }
+        //  else
+        //  {
+        //      greeting = "Good evening";
+        //  }
+        //  alert(greeting);
+         
 
-        //7
-
-        // var inputTime = prompt("Enter Time like: 1900 = 7pm, 2000 = 8pm");
-
-        // if(inputTime >= 0 && inputTime < 1200)
-        // {
-        //     alert("Good Morning")
-        // }
-        // else if(inputTime >= 1200 && inputTime < 1700)
-        // {
-        //     alert("Good Afternoon")
-        // }
-        // else if(inputTime >= 1700 && inputTime < 2100)
-        // {
-        //     alert("Good Evening")
-        // }
-        // else if(inputTime >= 2100 && inputTime < 2359)
-        // {
-        //     alert("Good Night")
-        // }
-        // else
-        // {
-        //     alert("Invalid Time")
-        // }
+      
